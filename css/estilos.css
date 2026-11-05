@@ -99,3 +99,70 @@ footer {
     border-radius: 5px;
     margin-bottom: 18px;
 }
+
+/* Enlace para consultar o registrar actividades */
+.enlace-consulta {
+    display: inline-block;
+    color: #194d88;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 12px 0;
+}
+
+.enlace-consulta:hover {
+    text-decoration: underline;
+}
+
+/* Tabla responsiva */
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.tabla-actividades {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.tabla-actividades th,
+.tabla-actividades td {
+    padding: 12px;
+    border: 1px solid #d6dee8;
+    text-align: left;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+
+.tabla-actividades th {
+    background-color: #194d88;
+    color: white;
+}
+
+.tabla-actividades tbody tr:hover {
+    background-color: #eef4fb;
+}
+
+/* Dar mas espacio a la pagina de consulta */
+main:has(.tabla-contenedor) {
+    max-width: 1250px;
+}
+/* Mejorar la lectura de los encabezados */
+.tabla-actividades th {
+    white-space: nowrap;
+}
+
+/* Evitar que los datos cortos se dividan */
+.tabla-actividades td:nth-child(1),
+.tabla-actividades td:nth-child(4),
+.tabla-actividades td:nth-child(5),
+.tabla-actividades td:nth-child(7) {
+    white-space: nowrap;
+}
+
+/* Dar espacio suficiente a las columnas */
+.tabla-actividades {
+    min-width: 1050px;
+}

@@ -75,6 +75,11 @@ if ($resultado === 'guardado') {
                 <button type="submit">Guardar actividad</button>
 
             </form>
+            <p>
+    <a href="consultar.php" class="enlace-consulta">
+        Ver actividades registradas
+    </a>
+</p>
         </section>
     </main>
 
