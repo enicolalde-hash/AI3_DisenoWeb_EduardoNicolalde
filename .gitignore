@@ -1,0 +1,14 @@
+# Credenciales y configuraciones locales
+.env
+.env.*
+config/config.local.php
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Dependencias
+vendor/
+
+# Configuracion personal del editor
+.vscode/
