@@ -100,6 +100,10 @@ a las personas autorizadas.
 
 ## Aprendizaje personal
 
-Este trabajo me ayudó a comprender cómo pasan los datos de un formulario a PHP y después a MariaDB. Al mejorar la interfaz, también practiqué cómo organizar archivos compartidos para no repetir la misma cabecera y el menú en cada página.
+Con esta actividad pude entender mejor cómo se relacionan PHP y MariaDB. Al realizar las pruebas, comprobé cómo la información que ingreso en el formulario se valida, se guarda en la base de datos y después aparece en la consulta. También comprendí por qué es necesario aplicar medidas de seguridad al registrar y mostrar los datos.
+
+Otra parte que me ayudó bastante fue mejorar el diseño del sistema. Aprendí a organizar la cabecera, el menú y el pie de página en archivos separados para poder utilizarlos en las dos pantallas sin repetir código.
+
+Finalmente, al publicar el proyecto en InfinityFree y comprobar que funcionaba fuera de mi computadora, pude poner en práctica lo aprendido en clase y entender mejor cómo se conecta una aplicación web con su base de datos.
 
 
